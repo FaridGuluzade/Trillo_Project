@@ -268,7 +268,10 @@
 
     @media only screen and (max-width: $bp-small) {
       font-size: 1.8rem;
-      padding: 1.25rem 2rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+      padding: 0.5rem 1rem;
     }
   }
 
@@ -298,6 +301,10 @@
     @media only screen and (max-width: $bp-small) {
       font-size: 0.8rem;
     }
+
+    @media only screen and (max-width: $bp-smallest) {
+      font-size: 0.8rem;
+    }
   }
 
   &__rating {
@@ -315,6 +322,11 @@
     @media only screen and (max-width: $bp-small) {
       padding: 0 1.5rem;
     }
+
+    @media only screen and (max-width: $bp-smallest) {
+      margin-left: 1rem;
+      padding: 0 0.5rem;
+    }
   }
 
   &__rating-average {
@@ -325,6 +337,11 @@
     @media only screen and (max-width: $bp-small) {
       font-size: 1.8rem;
     }
+
+    @media only screen and (max-width: $bp-smallest) {
+      font-size: 1.5rem;
+      margin-bottom: -1px;
+    }
   }
 
   &__rating-count {
@@ -332,7 +349,10 @@
     text-transform: uppercase;
 
     @media only screen and (max-width: $bp-small) {
-      font-size: 0.5rem;
+      font-size: 0.6rem;
+    }
+    @media only screen and (max-width: $bp-smallest) {
+      font-size: 0.4rem;
     }
   }
 }
