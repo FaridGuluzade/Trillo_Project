@@ -55,8 +55,7 @@ body {
   @media only screen and (max-width: 31.25em) {
     .search {
       order: 1;
-      flex: 0 0 100%;
-      background-color: var(--color-grey-light-2); } }
+      flex: 0 0 100%; } }
   .search__input {
     font-family: inherit;
     font-size: inherit;
@@ -235,11 +234,18 @@ body {
     width: 1.75rem;
     height: 1.75rem;
     fill: var(--color-primary); }
+    @media only screen and (max-width: 37.5em) {
+      .overview__icon-star, .overview__icon-location {
+        width: 1.25rem;
+        height: 1.25rem; } }
   .overview__location {
     font-size: 1.2rem;
     display: flex;
     align-items: center;
     gap: 0.5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .overview__location {
+        font-size: 0.8rem; } }
   .overview__rating {
     background-color: var(--color-primary);
     color: #fff;
